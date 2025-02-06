@@ -3,20 +3,15 @@
   "title": "Tablestuck Test",
   "description": "A 4-stat system based on Homestuck",
   "version": "0.2.0",
-  "compatibility": {
-    "minimum": 12,
-    "verified": 12
   },
   "authors": [{
-    "name": "me",
-    "url": "YOUR WEBSITE ADDRESS HERE",
-    "email": "YOUR EMAIL ADDRESS HERE",
+    "name": "re0",
     "discord": "re0speedwag0n"
   }],
-  "esmodules": ["mysystem.mjs"],
-  "styles": ["styles/system-styles.css"],
+  "esmodules": ["Tablestuck.mjs"],
+  "styles": ["Tablestuck.css"],
   "packs": [{
-    "name": "monsters",
+    "name": "Underlings",
     "label": "My Monsters",
     "type": "Actor"
   },
