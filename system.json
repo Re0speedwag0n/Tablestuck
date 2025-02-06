@@ -1,0 +1,48 @@
+{
+  "id": "Tablestuck",
+  "title": "Tablestuck Test",
+  "description": "A 4-stat system based on Homestuck",
+  "version": "0.2.0",
+  },
+  "authors": [{
+    "name": "re0",
+    "discord": "re0speedwag0n"
+  }],
+  "esmodules": ["Tablestuck.mjs"],
+  "styles": ["Tablestuck.css"],
+  "packs": [{
+    "name": "underlings",
+    "label": "Underlings",
+    "system": "Tablestuck"
+    "type": "Actor"
+  },
+  {
+    "name": "items",
+    "label": "My Items",
+    "system": "Tablestuck"
+    "type": "Item"
+  }],
+  "languages": [{
+    "lang": "en",
+    "name": "English",
+    "path": "lang/en.json"
+  }],
+  "documentTypes": {
+    "Actor": {
+      "hero": { "htmlFields": ["background.biography"] },
+      "villain": { "htmlFields": ["background.biography"] },
+      "pawn": {}
+    },
+    "Item": {
+      "weapon": {},
+      "spell": {}
+    }
+  },
+  "socket": true,
+  "grid": {
+    "distance": 1,
+    "units": "Spaces"
+  },
+  "primaryTokenAttribute": "resources.health",
+  "url": "https://github.com/Re0speedwag0n/Tablestuck",
+}
